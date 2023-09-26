@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: gray;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.conclusion {
+    height: 40px;
+    width: 400px;
+    background: #c9c9c9;
+    border-radius: 8px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    width: 190px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.buttons .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+}
+
+.buttons .btnEquals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+}
