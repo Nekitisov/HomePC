@@ -2,22 +2,30 @@
     margin: 0;
     padding: 0;
 }
-body {
-    background: gray;
+
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 .calc {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background: rgb(128, 128, 128);
+    padding: 30px 20px;
+    width: min-content;
+    border-radius: 15px;
 }
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .conclusion {
     height: 40px;
-    width: 400px;
+    width: 190px;
     background: #c9c9c9;
     border-radius: 8px;
 }
@@ -28,17 +36,28 @@ body {
 
 .buttons {
     display: flex;
-    width: 190px;
+    width: 200px;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.buttons .btn {
+.symbol {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 20px;
+}
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 50px;
+    border: none;
+    background: darkgrey;
+    border-radius: 10px;
+    z-index: 5;
+    box-shadow: 2px 2px #3d3d3d;
 }
 
 .buttons .btnEquals {
@@ -47,4 +66,10 @@ body {
     align-items: center;
     height: 40px;
     width: 50px;
+    border: none;
+    background: coral;
+    border-radius: 10px;
+    z-index: 5;
+    box-shadow: 2px 2px #3d3d3d;
 }
+
